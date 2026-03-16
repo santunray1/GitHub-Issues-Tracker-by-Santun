@@ -12,7 +12,41 @@
 
 </head>
 <body>
-    <h1 class="text-xl font-bold text-center">GitHub Issues Tracker</h1>
-    <i class="fa-solid fa-house"></i>
+    <section class="w-[40%] mx-aut">
+        <div class="w-[520px] h-[743px] bg-white shadow-md justify-center items-center space-y-5 ">
+            <div class="logo w-[20%] mx-auto pt-5">
+                <img src="./assets/github-logo.png" alt="">
+            </div>
+            <div class="w-[300px] mx-auto pb-5 items-center text-center">
+                <h2 class="text-2xl font-bold">GitHub Issues Tracker</h2>
+                <p class="text-[#64748B] ">Sign in to manage your issues</p>
+            </div>
+            <fieldset class="fieldset bg-[#64748B]/10 shadow-sm border-base-300 rounded-box w-full border p-4">
+                
+                <label class="text-xl font-bold">Email</label>
+                <input type="email" class="input w-full" placeholder="Enter Username" />
+                
+                <label class="text-xl font-bold">Password</label>
+                <input type="password" class="input w-full" placeholder="Enter Password" />
+                
+                <button id="login-btn" class="btn btn-primary mt-4">Login</button>
+            </fieldset>
+            <div class="w-[300px] mx-auto items-center text-center">
+                <hr>
+                <h1 class="text-xl font-bold">or</h1>
+                <hr>
+                
+            </div>
+            <div class="w-[300px] mx-auto items-center text-center">
+                <p class="text-[#64748B] ">Demo Credentials:</p>
+            </div>
+            <div class="w-[400px] mx-auto pb-5 rounded-sm bg-slate-100 items-center text-center p-2">
+                <h1><span class="text-xl font-bold">Username:</span> admin</h1>
+                <h1><span class="text-xl font-bold">Password:</span> admin123</h1>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./script/login.js"></script>
 </body>
 </html>
